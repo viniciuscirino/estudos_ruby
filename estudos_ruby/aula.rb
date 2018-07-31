@@ -1,7 +1,7 @@
 require 'byebug'
 require 'active_support/all'
 require 'httparty'
-
+require 'singleton'
 def captura_servico(pagina=1)
   #TODO: capturar dados do serviço: http://localhost:3000/usuarios.json
   # puts "Implementar o dado para buscar da API #{i}"
