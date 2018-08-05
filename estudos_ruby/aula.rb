@@ -21,4 +21,5 @@ module Mostrar
         puts "######################################################"
     end 
     debugger
+    mostrar_pessoa
 end
